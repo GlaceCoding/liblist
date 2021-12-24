@@ -1,0 +1,18 @@
+# WHITELIST FOR ALLOWED FUNCTION IN .C FILE
+#
+# 1) For one file
+#
+# filename.c:printf
+#
+# 2) Everywhere
+#
+# *:printf
+#
+
+*:free
+*:malloc
+
+*:list_init_data
+*:list_free_data
+*:list_data_eq
+*:list_dtoi

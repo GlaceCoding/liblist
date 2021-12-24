@@ -1,0 +1,19 @@
+#declared function
+
+list_create.c:list_new
+list_create.c:list_push
+list_create.c:list_splice
+list_create.c:list_unshift
+list_shift.c:list_clear
+list_shift.c:list_map
+list_shift.c:list_pop
+list_shift.c:list_shift
+list_shift.c:list_slice
+list_utils.c:list_get_int
+list_utils.c:list_get_str
+list_utils.c:list_last
+list_utils.c:list_push_uniq
+list_info.c:list_int_info
+list_info.c:list_length
+list_info.c:list_max_value
+list_info.c:list_min_value
