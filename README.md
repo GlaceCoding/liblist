@@ -227,7 +227,7 @@ t_list	*list_last(t_list **plist);
 
 #### With printf
 
-```
+```c
 #include <stdio.h>
 
 void	printf_list(t_list *stack)
@@ -241,7 +241,7 @@ void	printf_list(t_list *stack)
 
 #### With ft_putstr
 
-```
+```c
 void	list_print_str(t_list *plist)
 {
 	if (!plist)
