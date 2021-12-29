@@ -113,7 +113,7 @@ void	*list_pop(t_list **plist);
 
 #### list_slice
 
-Remove elements on the list at the *start* position. The number of elements removed depend on *deleteCount* value.
+Remove elements on the list at the *start* position. The number of elements removed depend on *deleteCount* value. *deleteCount* can be negative to delete all element after *start* position.
 
 Note: Use the return to free the data with `list_clear`.
 
