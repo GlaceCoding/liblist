@@ -1,6 +1,6 @@
 # Liblist
 
-Custom list library in C.
+Custom linked list library in C.
 
 You can use int list and string list in the same application without problem.
 
