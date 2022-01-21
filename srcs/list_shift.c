@@ -6,7 +6,7 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 09:18:44 by gphilipp          #+#    #+#             */
-/*   Updated: 2021/12/24 15:05:57 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/01/21 10:59:56 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,12 +76,12 @@ t_list	*list_map(t_list **plist, int (*map)(t_list **item, int index,
 	return (newlist);
 }
 
-int	list_clear(t_list **plist)
+int	list_clear(t_list **plist, void (*free_data)(void *data))
 {
 	int			i;
 
 	i = 0;
 	while (*plist && ++i)
-		list_free_data(list_shift(plist));
+		(*free_data)(list_shift(plist));
 	return (i);
 }

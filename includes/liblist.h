@@ -6,7 +6,7 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 22:53:46 by gphilipp          #+#    #+#             */
-/*   Updated: 2021/12/24 14:44:22 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/01/21 10:59:38 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ void		*list_pop(t_list **plist);
 t_list		*list_slice(t_list **plist, int start, int deleteCount);
 t_list		*list_map(t_list **plist, int (*map)(t_list **item, int index,
 					t_list **plist));
-int			list_clear(t_list **plist);
+int			list_clear(t_list **plist, void (*free_data)(void *data));
 /* list_utils */
 int			list_push_uniq(t_list **plist, void *data);
 int			list_get_int(t_list *list);

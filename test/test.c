@@ -6,7 +6,7 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/18 14:35:46 by gphilipp          #+#    #+#             */
-/*   Updated: 2021/12/24 15:37:30 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/01/21 11:02:31 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -184,7 +184,7 @@ MU_TEST(test_list) {
 	mu_assert_int_eq(5, info.min);
 	mu_assert_int_eq(6, info.max);
 	mu_assert_int_eq(2, info.size);
-	mu_assert_int_eq(2, list_clear(&jours2));
+	mu_assert_int_eq(2, list_clear(&jours2, list_free_data));
 	mu_check(NULL == jours2);
 	mu_assert_int_eq(0, data->count);
 
@@ -219,7 +219,7 @@ MU_TEST(test_list) {
 	mu_assert_string_eq("Vendredi", ((mystring *)cursor->data)->word);
 	mu_assert_int_eq(5, ((mystring *)cursor->data)->count);
 	mu_assert_int_eq(5, data->count);
-	mu_assert_int_eq(1, list_clear(&cursor));
+	mu_assert_int_eq(1, list_clear(&cursor, list_free_data));
 	mu_check(NULL == cursor);
 	mu_assert_int_eq(0, data->count);
 

@@ -134,10 +134,10 @@ t_list	*list_map(t_list **plist, int (*map)(t_list **item, int index,
 
 #### list_clear
 
-Remove&Free all the element of the list. You have to call `list_create`, if you want a new list.
+Remove&Free all the element of the list. You have to call `list_create`, if you want a new list. By default, set `free_data` to `list_free_data`.
 
 ```c
-int	list_clear(t_list **plist);
+int	list_clear(t_list **plist, void (*free_data)(void *data));
 ```
 
 ### List info
