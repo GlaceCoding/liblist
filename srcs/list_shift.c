@@ -6,11 +6,12 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 09:18:44 by gphilipp          #+#    #+#             */
-/*   Updated: 2022/01/21 10:59:56 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/01/28 10:49:10 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "liblist.h"
+#include <stdlib.h>
 
 void	*list_shift(t_list **plist)
 {

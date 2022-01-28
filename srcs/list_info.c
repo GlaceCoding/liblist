@@ -6,11 +6,12 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/17 11:26:31 by gphilipp          #+#    #+#             */
-/*   Updated: 2021/12/24 15:05:53 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/01/28 10:49:17 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "liblist.h"
+#include <stdlib.h>
 
 int	list_length(t_list *plist)
 {

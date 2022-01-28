@@ -6,11 +6,12 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 22:47:25 by gphilipp          #+#    #+#             */
-/*   Updated: 2021/12/24 15:05:48 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/01/28 10:48:38 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "liblist.h"
+#include <stdlib.h>
 
 t_list	*list_new(void *data)
 {

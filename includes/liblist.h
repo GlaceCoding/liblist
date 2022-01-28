@@ -6,14 +6,12 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 22:53:46 by gphilipp          #+#    #+#             */
-/*   Updated: 2022/01/21 10:59:38 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/01/28 10:48:20 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBLIST_H
 # define LIBLIST_H
-
-# include <stdlib.h>
 
 typedef struct s_list	t_list;
 struct s_list
