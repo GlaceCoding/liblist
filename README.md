@@ -8,9 +8,9 @@ You can use int list and string list in the same application without problem.
 
 ### Add & Include file
 
-Include `./includes/list.h`, copy/paste `./list.c` in our project.
+Include `./includes/list.h`, copy/paste `./list.c` in your project.
 
-Edit `list_init_data`, `list_free_data`, `list_data_eq` and `list_dtoi` according to our need.
+Edit `list_init_data`, `list_free_data`, `list_data_eq` and `list_dtoi` according to your need.
 
 ### Configure your MAKEFILE
 
