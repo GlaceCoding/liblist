@@ -6,11 +6,12 @@
 /*   By: gphilipp <gphilipp@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 09:50:34 by gphilipp          #+#    #+#             */
-/*   Updated: 2021/12/24 15:39:24 by gphilipp         ###   ########.fr       */
+/*   Updated: 2022/03/29 11:26:21 by gphilipp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "list.h"
+#include <stdlib.h>
 
 void	list_init_data(void *data)
 {
